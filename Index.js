@@ -5,6 +5,7 @@ var MainScene = $("#MainScene")[0]
 
 let PathName = location.pathname.split("/")
 PathName = (PathName[PathName.length - 1].split(".")[0] || "index").toUpperCase()
+console.log(PathName)
 
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
