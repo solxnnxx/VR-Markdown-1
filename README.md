@@ -1,4 +1,26 @@
 # VR-Markdown
 
-hello
-teste
+
+*hello*
+
+luigi gamer
+
+tab
+
+`<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Définir l'asset pour l'image du panorama -->
+      <a-assets>
+        <img id="panorama-image" src="chemin_vers_votre_image.jpg">
+      </a-assets>
+
+      <!-- Utiliser l'asset pour créer le panorama -->
+      <a-sky src="#panorama-image"></a-sky>
+    </a-scene>
+  </body>
+</html>`
