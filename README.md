@@ -30,6 +30,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </body>
 </html>
 ```
+*... et c'est tout!*
 ## Explication du code
 
 Ce code est un exemple simple d’une page Web qui utilise la bibliothèque JavaScript A-Frame pour afficher une image à 360 degrés. Voici une explication détaillée de chaque partie :
