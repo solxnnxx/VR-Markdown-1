@@ -37,18 +37,17 @@ AFRAME.registerComponent('scene-init', {
     init: async function() {
       console.log("init")
       this.SceneName = this.data
-      console.log(this.SceneName)
-  
+
       SwitchArea(this.SceneName)
     }
   })  
 
 AFRAME.registerComponent('scene-changer', {
-    schema: {type: 'int', default: 0},
+    schema: {type: 'string', default: 'default'},
   
     init: async function() {
       this.onClick = this.onClick.bind(this)
-      this.SceneName = this.data["name"]
+      this.SceneName = this.data
 
       this.el.addEventListener("click", this.onClick)
     },
