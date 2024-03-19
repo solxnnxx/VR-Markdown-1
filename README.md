@@ -69,7 +69,7 @@ Ce code est un exemple simple d’une page Web qui utilise la bibliothèque Java
 
 En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
 
-<a href="https://maximer37.github.io/VR-Markdown/projet_panorama/Panorama%201.html">
+<a href="https://maximer37.github.io/VR-Markdown/projet_panorama/Panorama1.html">
 On ajuste a rajouter un dosier dans visual studio code puis un fichier sur meme dosier.
 
  ![alt text](<capture_ecran/Capture Visual Studio Code.png>)
