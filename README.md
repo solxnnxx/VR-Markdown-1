@@ -19,6 +19,7 @@ Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans 
 - Un ordinateur, avec les logiciels suivants
   - Un environnement de développement (ici VS Codium)
   - Un logiciel d'édition et de retouche d'image (ici GIMP)
+  - Un compte GitHub (nous utiliserons cette plateforme pour l'hebergement des scènes, et nous nous assurerons que vous puissiez retrouver les fichiers issus de ce document)
 
 ### Prise des vues 360°
 
@@ -44,6 +45,9 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 </html>
 ```
 *... et c'est tout!*
+
+Nous créons donc un document html à la racine de notre compte Github intitullé panorama0.html
+
 ## Explication du code
 
 Ce code est un exemple simple d’une page Web qui utilise la bibliothèque JavaScript A-Frame pour afficher une image à 360 degrés. Voici une explication détaillée de chaque partie :
