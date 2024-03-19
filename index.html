@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./js/modules/template.js"></script>
   </head>
+
   <body>
     <a-scene>
-      <!-- Définir l'asset pour l'image du panorama -->
-      <a-assets>
-        <img id="panorama-image" src="../images/Photo 360 1.jpg">
-      </a-assets>
+        <a-entity id="cur_camera" camera="active: true" position="0 0 0" look-controls animation__1= "property: camera.far; to: 100 ; dur: 500; easing: linear; startEvents: start_trans" animation__2= "property: camera.far; from: 100; to: 1000; dur: 500; easing: linear; startEvents: end_trans">  </a-entity>
 
-      <!-- Utiliser l'asset pour créer le panorama -->
-      <a-sky src="#panorama-image"></a-sky>
+        <a-entity id="MainScene" scene-init template="src: #NA" />
     </a-scene>
   </body>
-</html> 
+
+  <script src="./index.js"></script>
+</html>
