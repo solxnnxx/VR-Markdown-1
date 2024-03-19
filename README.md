@@ -25,7 +25,7 @@ Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans 
 Il est utile de bien plannifier en amont de toutes prises de vues les endroits où seront réalisés les photos.
 En exterieur, des outils comme google earth sont particulièrement utiles.
 
-![plannification](<images/plan.png>)
+![plannification](<images/plan.jpg>)
 
 J'ai pris des photos en 360° a l'aide d'une caméra 360°, après je l'ai importer sur le logiciel insta 360 mais cela peut se faire avec un materiel similaire.
 
