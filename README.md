@@ -72,7 +72,6 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 <a href=">
 On ajuste a rajouter un dosier dans visual studio code puis un fichier sur meme dosier.
 
- ![alt text](<capture_ecran/CaptureVS.png>)
 
 ![alt text](<images/3601.jpg>)
 *Premier panorama*
