@@ -12,6 +12,21 @@ Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans 
 
 ## Etape 1 - Matériel préparatoire et prises de vues
 
+### Matériel nécéssaire
+
+- Une caméra 360° (nous utiliserons une caméra Insta 360 pour cet exemple).
+- Un pied pour appareil photo (afin d'avoir une hauteur de prise de vue fixe entre les différents panoramas)
+- Un ordinateur, avec les logiciels suivants
+-- Un environnement de développement (ici VS Codium)
+-- Un logiciel d'édition et de retouche d'image (ici GIMP)
+
+### Prise des vues 360°
+
+Il est utile de bien plannifier en amont de toutes prises de vues les endroits où seront réalisés les photos.
+En exterieur, des outils comme google earth sont particulièrement utiles.
+
+![plannification](<images/plan.png>)
+
 J'ai pris des photos en 360° a l'aide d'une caméra 360°, après je l'ai importer sur le logiciel insta 360 mais cela peut se faire avec un materiel similaire.
 
 j'ai modifier la resolution de l'image de 2880 pixel par 1440 pixel avec le logiciel de la caméra puis j'ai flouté le visage pour par la suite les importer 
