@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-  </head>
-  <body>
-    <a-scene cursor="rayOrigin: mouse; fuse: false" stats raycaster="objects: .raycast">
-      <!-- Définir l'asset pour l'image du panorama -->
-      <a-assets>
-        <img id="panorama-image" src="../images/3601.jpg">
-      </a-assets>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" class="raycast"></a-sphere>
-      <!-- Utiliser l'asset pour créer le panorama -->
-      <a-sky src="#panorama-image"></a-sky>
-    </a-scene>
-  </body>
-</html>
+<!-- Dome qui contien une image en 360° -->
+<a-sky src="./images/3602.jpg"></a-sky>
 
-<!-- ``` 
-                    \|||/ 
-                    (o o)
-           ,----ooO--(_)-------. 
-           | Au final          |         
-           |   c'est plutot    |
-           |     facile, non?  |
-           '--------------Ooo--'
-                   |__|__|
-                    || ||
-                   ooO Ooo   -->
-```
+<!-- Modèle 3D, utilise le composant scene-changer pour changer la scène -->
+<a-ent)ity id="printer" scene-changer obj-model="obj: ./Resources/fleche.obj" position="-28.26659 -2 -16.91649" class="raycastable" rotation="-90 0 0"></a-ent>
