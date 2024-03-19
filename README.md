@@ -25,13 +25,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </head>
   <body>
     <a-scene>
-      <!-- Définir le contenu pour l'image du panorama -->
-      <a-assets>
-        <img id="panorama-image" src="./images/Photo 360 1.jpg">
-      </a-assets>
-
-      <!-- Utiliser l'asset pour créer le panorama -->
-      <a-sky src="#panorama-image"></a-sky>
+      <a-sky src="./images/Photo 360 1.jpg"></a-sky>
     </a-scene>
   </body>
 </html>
