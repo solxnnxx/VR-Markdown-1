@@ -25,9 +25,9 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </head>
   <body>
     <a-scene>
-      <!-- Définir l'asset pour l'image du panorama -->
+      <!-- Définir le contenu pour l'image du panorama -->
       <a-assets>
-        <img id="panorama-image" src="chemin_vers_votre_image.jpg">
+        <img id="panorama-image" src="./images/Photo 360 1.jpg">
       </a-assets>
 
       <!-- Utiliser l'asset pour créer le panorama -->
@@ -36,7 +36,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </body>
 </html>
 ```
-
+<a href=">
 On ajuste a rajouter un dosier dans visual studio code puis un fichier sur meme dosier.
 
  ![alt text](<capture_ecran/Capture Visual Studio Code.png>)

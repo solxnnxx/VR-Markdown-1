@@ -4,12 +4,12 @@
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene cursor="rayOrigin: mouse; fuse: false" stats raycaster="objects: .raycast">
       <!-- Définir l'asset pour l'image du panorama -->
       <a-assets>
         <img id="panorama-image" src="../images/Photo 360 1.jpg">
       </a-assets>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" class="raycast"></a-sphere>
       <!-- Utiliser l'asset pour créer le panorama -->
       <a-sky src="#panorama-image"></a-sky>
     </a-scene>
