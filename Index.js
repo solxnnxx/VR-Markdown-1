@@ -18,11 +18,15 @@ async function UpdateNavigator() {
     $("#cur_camera")[0].emit("end_trans")
   }
 
+if(MainScene) MainScene.addEventListener("templaterendered", UpdateNavigator);
+
+
 async function SwitchArea(Name) {
     let ok = document.querySelectorAll(".field")
     ok.forEach(function(val) { $(val).remove() })
     console.log("Changing To Area => " + Name)
   
+    console.log("start")
     $("#cur_camera")[0].emit("start_trans")
     await sleep(500)
   
