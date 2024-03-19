@@ -3,11 +3,8 @@
 
 *hello*
 
-luigi gamer
-
-tab
-
-`<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
   <head>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
@@ -23,4 +20,6 @@ tab
       <a-sky src="#panorama-image"></a-sky>
     </a-scene>
   </body>
-</html>`
+</html>
+
+```
