@@ -27,7 +27,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 
 On ajuste a rajouter un dosier dans visual studio code puis un fichier sur meme dosier.
 
- 
+ ![alt text](<capture_ecran/Capture Visual Studio Code.png>)
 
 ![alt text](<images/Photo 360 1.jpg>)
 
