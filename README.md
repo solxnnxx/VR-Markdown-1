@@ -12,7 +12,7 @@ Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans 
 
 ## Etape 1 - Matériel préparatoire et prises de vues
 
-J'ai pris des photos en 360° a l'aide d'une caméra 360, après je l'ai importer sur le logiciel insta 360 mais cela peut se faire avec un materiel similaire.
+J'ai pris des photos en 360° a l'aide d'une caméra 360°, après je l'ai importer sur le logiciel insta 360 mais cela peut se faire avec un materiel similaire.
 
 j'ai modifier la resolution de l'image de 2880 pixel par 1440 pixel avec le logiciel de la caméra puis j'ai flouté le visage pour par la suite les importer 
 
@@ -46,7 +46,7 @@ Ce code est un exemple simple d’une page Web qui utilise la bibliothèque Java
 
 `<a-scene>` : C’est une balise spécifique à A-Frame qui crée une scène 3D où vous pouvez placer des objets.
 
-`<a-sky src="./images/Photo 360 1.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec une texture mappée à partir de l’image spécifiée. Dans ce cas, l’image est "Photo 360 1.jpg" qui se trouve dans le répertoire "images".
+`<a-sky src="./images/Photo 360 1.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec comme texture l’image spécifiée. Dans ce cas, l’image est "Photo 360 1.jpg" qui se trouve dans le répertoire "images".
 
 
 En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
