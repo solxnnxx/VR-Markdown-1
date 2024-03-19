@@ -57,5 +57,7 @@ On ajuste a rajouter un dosier dans visual studio code puis un fichier sur meme 
  ![alt text](<capture_ecran/Capture Visual Studio Code.png>)
 
 ![alt text](<images/Photo 360 1.jpg>)
+*Premier panorama*
 
 ![alt text](<images/Photo 360 2.jpg>)
+*Deuxième panorama*
