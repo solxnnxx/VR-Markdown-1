@@ -33,12 +33,19 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 ## Explication du code
 
 Ce code est un exemple simple d’une page Web qui utilise la bibliothèque JavaScript A-Frame pour afficher une image à 360 degrés. Voici une explication détaillée de chaque partie :
+
 `<!DOCTYPE html>` : Cette déclaration doit être la première ligne du document. Elle informe le navigateur que le document est une page HTML.
+
 `<html>` : C’est la racine de la page HTML.
+
 `<head>` : Cette balise contient des métadonnées sur le document HTML, qui ne sont pas affichées sur la page Web elle-même. Ici, elle contient une balise <script>.
+
 `<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>` : Cette balise importe la bibliothèque A-Frame, qui est une bibliothèque JavaScript pour la création d’expériences de réalité virtuelle.
+
 `<body>` : Cette balise contient le contenu principal de la page Web, qui est affiché dans le navigateur.
+
 `<a-scene>` : C’est une balise spécifique à A-Frame qui crée une scène 3D où vous pouvez placer des objets.
+
 `<a-sky src="./images/Photo 360 1.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec une texture mappée à partir de l’image spécifiée. Dans ce cas, l’image est "Photo 360 1.jpg" qui se trouve dans le répertoire "images".
 
 
