@@ -175,5 +175,6 @@ Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre
 # [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
 pour gerer les animation d'un objet on va simplement rajouter une ligne de code a la suite de notre object 
 ````
-<a-entity id="printer" scene-changer="" obj-model="obj: ./resources/fleche.obj" position="-28.26659 0.24929 -16.91649" class="raycastable" rotation="-90 0 0" animation="property: position; dir: alternate; to: -28.2 -.4 -16.9; loop: true; dur: 1000"></a-entity>
+<a-entity id="printer" scene-changer="" obj-model="obj: ./resources/fleche.obj" position="-28.26659 0.24929 -16.91649" class="raycastable" rotation="-90 0 0" 
+animation="property: position; dir: alternate; to: -28.2 -.4 -16.9; loop: true; dur: 1000"></a-entity>
 ````
