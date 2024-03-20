@@ -45,7 +45,7 @@ Dans notre cadre, nous allons réaliser une viste virtuelle simple du terrain de
 Il est utile de bien plannifier en amont de toutes prises de vues les endroits où seront réalisés les photos.
 En exterieur, des outils comme google earth sont particulièrement utiles.
 
-![plannification](<images/plan.jpg>)
+![plannification](<partie2/resources/image/plan.jpg>)
 
 L'importation des images est le moment ideal pour mofier la résolution  modifier la resolution de l'image de 2880 pixel par 1440 pixel avec le logiciel de la caméra puis j'ai flouté le visage pour par la suite les importer 
 
@@ -106,9 +106,9 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 <!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
 
 
-![alt text](<images/3601.jpg>)
+![alt text](<partie2/resources/images/panorama1.jpg>)
 *Premier panorama*
 
 
-![alt text](<images/3602.jpg>)
+![alt text](<partie2/resources/images/panorama2.jpg>)
 *Deuxième panorama*
