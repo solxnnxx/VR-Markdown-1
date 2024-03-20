@@ -1,12 +1,10 @@
-# VR-Markdown
+# Création de visites virtuelles en VR
 
-```
-Objectif du document:
+## Objectif du document:
 Expliquer, de la manière la plus simple possible, comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre. Ce document doit inclure toutes les étapes de la réalisation, des prises de vue à l'édition du code en passant par l'hébergement. Le tout doit être écrit de la manière la plus simple et didactique possible, en procédant étape par étape.
 La cible du document est le grand public.
-```
 
-
+## Introduction
 Bienvenue sur notre page dédiée à la réalisation de panoramas 360° pour l’éducation en utilisant les bibliothèques A-Frame.
 
 La réalité virtuelle a le potentiel de transformer l’éducation, en offrant des expériences d’apprentissage immersives et interactives. Les panoramas 360°, en particulier, peuvent permettre aux lycéens et étudiants de découvrir de nouveaux environnements et concepts d’une manière visuellement riche et engageante.
@@ -17,9 +15,9 @@ Sur cette page, nous vous guiderons à travers les étapes de la création de vo
 
 Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans votre salle de classe, un développeur web cherchant à créer des ressources éducatives interactives, ou simplement quelqu’un qui est curieux de la technologie de panorama 360°, nous espérons que vous trouverez cette page informative et utile. Bonne création !
 
-## Etape 1 - Matériel préparatoire et prises de vues
+# Etape 1 - Matériel préparatoire et prises de vues
 
-### Matériel nécéssaire
+## Matériel nécéssaire
 
 - Une caméra 360° (nous utiliserons une caméra Insta 360 pour cet exemple).
 - Un pied pour appareil photo (afin d'avoir une hauteur de prise de vue fixe entre les différents panoramas)
