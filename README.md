@@ -46,7 +46,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 ```
 *... et c'est tout!*
 
-Nous créons donc un document html à la racine de notre compte Github intitullé panorama0.html
+Nous créons donc un document html à la racine de notre compte Github intitullé simple.html
 
 ## Explication du code
 
@@ -82,7 +82,7 @@ N’oublie pas de remplacer "chemin_vers_votre_image.jpg" par le chemin réel ve
 
 En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
 
-[Lien du site](https://maximer37.github.io/VR-Markdown/)
+[LIen du site](https://maximer37.github.io/VR-Markdown/)
 
 <!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
 
