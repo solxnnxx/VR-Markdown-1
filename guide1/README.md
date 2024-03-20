@@ -179,18 +179,15 @@ C ette variable contient le chemin relatif vers le dossier où se trouvent vos p
 
 ### Variables pour A-Frame :
 
-
 var SceneData = $("a-scene") : Cette ligne sélectionne l’élément HTML avec la balise <a-scene> (qui est probablement la scène principale de 
 votre expérience A-Frame).
 
 var scene = SceneData[0] : La variable scene contient cet élément.
 
-
 var MainScene = $("#MainScene")[0] : La variable MainScene contient l’élément avec l’ID “MainScene”.
 
 
-let PathName = location.pathname.split("/") :
-
+### let PathName = location.pathname.split("/") :
 
 Cette ligne récupère le chemin de l’URL actuelle et le divise en segments en utilisant le caractère “/”. Le résultat est stocké dans la 
 variable PathName.
@@ -199,9 +196,12 @@ variable PathName.
 Ensuite, le nom du document (fichier HTML) est extrait de ce chemin. Si aucun nom de document n’est trouvé, il est défini par défaut comme “index” et converti en majuscules.
 
 
-Fonction sleep(ms) :
+### Fonction sleep(ms) :
+
 Cette fonction attend pendant un certain nombre de millisecondes avant de continuer l’exécution du code. Elle utilise une promesse pour gérer l’attente.
-Fonction UpdateNavigator() :
+
+### Fonction UpdateNavigator() :
+
 Cette fonction supprime le “cache” de la caméra (probablement pour réinitialiser son état). Elle attend 100 millisecondes avant d’émettre un événement “end_trans”.
 Interaction pour la fonction UpdateNavigator :
 Lorsque le template est chargé (rendu), l’événement templaterendered est détecté sur l’élément MainScene, ce qui appelle la fonction UpdateNavigator.
