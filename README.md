@@ -1,5 +1,13 @@
 # Création de visites virtuelles et contenus pédagogiques en VR libres et gratuits
 
+Version 1
+
+Auteurs:
+- Maxime Renauld, Stagiaire en TPRO SN RISC
+- Solenne Mvutu Mbeya, Stagiaire en TPRO SN RISC
+- Yanis Maafa, Stagiaire en TPRO SN SSIHT
+- Matthieu Farcot, Encadrement et validation
+
 ## Objectif du document:
 Expliquer, de la manière la plus simple possible, comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre. Ce document doit inclure toutes les étapes de la réalisation, des prises de vue à l'édition du code en passant par l'hébergement. Le tout doit être écrit de la manière la plus simple et didactique possible, en procédant étape par étape.
 La cible du document est le grand public.
@@ -16,6 +24,12 @@ Sur cette page, nous vous guiderons à travers les étapes de la création de vo
 Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans votre salle de classe, un développeur web cherchant à créer des ressources éducatives interactives, ou simplement quelqu’un qui est curieux de la technologie de panorama 360°, nous espérons que vous trouverez cette page informative et utile. Bonne création !
 
 # Etape 1 - Matériel préparatoire et prises de vues
+
+## En amont : La plannification
+
+La plannification, définissant l'objet de la visite et le contenu qui devra s'afficher, est essentielle en amont de toute production. Ceci est plus simple à dire qu'à faire, mais il est essentiel de définir l'objectif de la visite et d'avoir une idée claire de *ce qui doit être montré*.
+
+Dans notre cadre, nous allons réaliser une viste virtuelle simple du terrain de sport de lycée Louis de Cormontaigne à Metz, se basant sur deux panoramas à 360°. Cette visite devra inclure des informations textuelles, des images, des vidéos, et des objets en 3 dimensions qui s'insèrent naturellement dans un panorama en 360°.
 
 ## Matériel nécéssaire
 
