@@ -72,6 +72,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 
 Nous créons donc un document html à la racine de notre compte Github intitullé simple.html
 
+
 **Création d’un compte GitHub :**
 
 
@@ -102,6 +103,7 @@ Cochez l’option “Initialize this repository with a README” (Initialiser ce
 
 
 Cliquez sur “Créer le dépôt”.
+
 
 **Création de votre site :**
 
