@@ -26,7 +26,7 @@ Sur cette page, nous vous guiderons à travers les étapes de la création de vo
 
 Que vous soyez un enseignant cherchant à intégrer la réalité virtuelle dans votre salle de classe, un développeur web cherchant à créer des ressources éducatives interactives, ou simplement quelqu’un qui est curieux de la technologie de panorama 360°, nous espérons que vous trouverez cette page informative et utile. Bonne création !
 
-# Etape 1 - Matériel préparatoire et prises de vues
+# [Partie 1] - Matériel préparatoire et prises de vues
 
 ## En amont : La plannification
 
