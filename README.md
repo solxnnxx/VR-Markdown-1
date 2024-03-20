@@ -3,10 +3,10 @@
 *Version 1*
 
 > Auteurs:
-> - **Maxime Renauld**, élève en TPRO SN RISC au lycée Louis de Cormontaigne
-> - **Solenne Mvutu Mbeya**,  élève en TPRO SN RISC au lycée Louis de Cormontaigne
-> - **Yanis Maafa**,  élève en TPRO SN SSIHT au lycée Louis de Cormontaigne
-> - **Matthieu Farcot**, encadrement et validation, lycée Louis de Cormontaigne
+> - **Maxime Renauld**, élève en TPRO SN RISC au lycée Louis de Cormontaigne, Metz
+> - **Solenne Mvutu Mbeya**,  élève en TPRO SN RISC au lycée Louis de Cormontaigne, Metz
+> - **Yanis Maafa**,  élève en TPRO SN SSIHT au lycée Louis de Cormontaigne, Metz
+> - **Matthieu Farcot**, encadrement et validation, lycée Louis de Cormontaigne, Metz
 
 ## Objectif du document:
 Expliquer comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre - y inclut l'hebergement. La technologie doit permettre une navoigation compatible avec les spécificités de multiples appareils, y inclut la navigation en VR 
