@@ -106,9 +106,9 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 <!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
 
 
-![*Premier panorama*](<partie2/resources/image/plan.jpg>)
+![*Premier panorama*](<partie2/resources/image/panorama1.jpg>)
 
 
 
-![*Deuxième panorama*](<partie2/resources/image/plan.jpg>)
+![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
 
