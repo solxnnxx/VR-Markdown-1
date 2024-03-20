@@ -64,7 +64,7 @@ Ce code est un exemple simple d’une page Web qui utilise la bibliothèque Java
 
 `<a-scene>` : C’est une balise spécifique à A-Frame qui crée une scène 3D où vous pouvez placer des objets.
 
-`<a-sky src="./images/Photo 360 1.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec comme texture l’image spécifiée. Dans ce cas, l’image est "Photo 360 1.jpg" qui se trouve dans le répertoire "images".
+`<a-sky src="./images/3601.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec comme texture l’image spécifiée. Dans ce cas, l’image est "3601.jpg" qui se trouve dans le répertoire "images".
 
 
 `<a-scene>` est l’élément principal qui contient tous les objets 3D de la scène scène A-Frame.
