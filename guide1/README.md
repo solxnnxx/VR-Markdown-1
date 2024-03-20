@@ -166,7 +166,10 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 
 ![*Premier panorama*](<partie2/resources/image/panorama1.jpg>)
 
-# [Partie 2 - Navigation enttre deux panorama 360](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
+# [Partie 2 - Navigation entre deux panorama 360](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
 
+
+
+# [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
 ![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
 
