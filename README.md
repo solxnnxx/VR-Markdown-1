@@ -67,21 +67,6 @@ Ce code est un exemple simple d’une page Web qui utilise la bibliothèque Java
 `<a-sky src="./images/Photo 360 1.jpg"></a-sky>` : Cette balise spécifique à A-Frame crée un ciel autour de la scène avec comme texture l’image spécifiée. Dans ce cas, l’image est "Photo 360 1.jpg" qui se trouve dans le répertoire "images".
 
 
-En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
-
-[Lien du site](https://maximer37.github.io/VR-Markdown/)
-
-<!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
-
-
-![alt text](<images/3601.jpg>)
-*Premier panorama*
-
-![alt text](<images/3602.jpg>)
-*Deuxième panorama*
-<<<<<<< patch-2
-```
-
 `<a-scene>` est l’élément principal qui contient tous les objets 3D de la scène scène A-Frame.
 
 
@@ -93,7 +78,18 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 `<a-sky src="#panorama-image"></a-sky>` crée le panorama en utilisant l’image que vous avez définie. Il utilise l’ID de l’image comme source.
 
 N’oublie pas de remplacer "chemin_vers_votre_image.jpg" par le chemin réel vers ton image de panorama. Attention: l’image doit être au format equirectangular pour qu’elle s’affiche correctement comme un panorama 360°.
-=======
+
+
+En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
+
+[Lien du site](https://maximer37.github.io/VR-Markdown/)
+
+<!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
+
+
+![alt text](<images/3601.jpg>)
+*Premier panorama*
+
+
 ![alt text](<images/3602.jpg>)
 *Deuxième panorama*
->>>>>>> main
