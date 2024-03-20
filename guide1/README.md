@@ -171,71 +171,50 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique
 
 ````
-// Variable qui contien la localisation des pages
-var PageLoc = "./Pages"
+Je vais vous expliquer ce code ligne par ligne :
 
-// Variables pour A-FRAME corsernant la scene
-var SceneData = $("a-scene")
-var scene     = SceneData[0]
-var MainScene = $("#MainScene")[0]
 
-// Contien le nom du document dans une variable
-let PathName = location.pathname.split("/")
-PathName = (PathName[PathName.length - 1].split(".")[0] || "index").toUpperCase()
+var PageLoc = "./Pages" :C ette variable contient le chemin relatif vers le dossier où se trouvent vos pages HTML. Dans cet exemple, le dossier est nommé “Pages”.
 
-// Function pour attendre x millisecondes
-function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
-// Function qui enlève le "cache" de la caméra
-async function UpdateNavigator() {
-    await sleep(100)
-    $("#cur_camera")[0].emit("end_trans")
-  }
+Variables pour A-Frame :
 
-// Interaction pour la fonction UpdateNavigator, quand la template est charger
-if(MainScene) MainScene.addEventListener("templaterendered", UpdateNavigator)
 
-// Function qui change la scene en vue du nom donner
-async function SwitchArea(Name) {
-    let ok = document.querySelectorAll(".field")
+var SceneData = $("a-scene") : Cette ligne sélectionne l’élément HTML avec la balise <a-scene> (qui est probablement la scène principale de 
+votre expérience A-Frame).
 
-    // Enlève tous les élement de la classe "field" 
-    ok.forEach(function(val) { $(val).remove() })
+var scene = SceneData[0] : La variable scene contient cet élément.
 
-    $("#cur_camera")[0].emit("start_trans")
-    await sleep(500)
-  
-    // Changement de la scene par la valeur du template
-    MainScene.attributes.template.nodeValue = "src: " + PageLoc + "/" + PathName + "/" + Name + ".html"
-}
 
-// Initialisation de la scene
-AFRAME.registerComponent('scene-init', {
-    schema: {type: 'string', default: 'default'},
-    init: async function() {
-      this.SceneName = this.data
+var MainScene = $("#MainScene")[0] : La variable MainScene contient l’élément avec l’ID “MainScene”.
 
-      SwitchArea(this.SceneName)
-    }
-  })  
 
-// Button qui change la scene a la valeur prédéfinie
-AFRAME.registerComponent('scene-changer', {
-    schema: {type: 'string', default: 'default'},
-  
-    init: async function() {
-      this.onClick = this.onClick.bind(this)
-      this.SceneName = this.data
+let PathName = location.pathname.split("/") :
 
-      // Active l'evenement si un click est détecter
-      this.el.addEventListener("click", this.onClick)
-    },
-  
-    onClick: async function() {
-      SwitchArea(this.SceneName)
-    }
-  })
 
+Cette ligne récupère le chemin de l’URL actuelle et le divise en segments en utilisant le caractère “/”. Le résultat est stocké dans la 
+variable PathName.
+
+
+Ensuite, le nom du document (fichier HTML) est extrait de ce chemin. Si aucun nom de document n’est trouvé, il est défini par défaut comme “index” et converti en majuscules.
+
+
+Fonction sleep(ms) :
+Cette fonction attend pendant un certain nombre de millisecondes avant de continuer l’exécution du code. Elle utilise une promesse pour gérer l’attente.
+Fonction UpdateNavigator() :
+Cette fonction supprime le “cache” de la caméra (probablement pour réinitialiser son état). Elle attend 100 millisecondes avant d’émettre un événement “end_trans”.
+Interaction pour la fonction UpdateNavigator :
+Lorsque le template est chargé (rendu), l’événement templaterendered est détecté sur l’élément MainScene, ce qui appelle la fonction UpdateNavigator.
+Fonction SwitchArea(Name) :
+Cette fonction change la scène (probablement le contenu affiché) en fonction du nom donné.
+Elle supprime tous les éléments de classe “field”.
+Elle émet un événement “start_trans” pour démarrer une transition.
+Enfin, elle met à jour le template de la scène principale avec le nom de la nouvelle page.
+Initialisation de la scène :
+Le composant scene-init initialise la scène avec un nom donné (probablement pour afficher une page spécifique au démarrage).
+Composant scene-changer :
+Ce composant est attaché à un bouton (ou un autre élément) et permet de changer la scène lorsque l’utilisateur clique dessus.
+En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des transitions entre différentes pages (ou scènes). Les templates (ou modèles) sont probablement utilisés pour définir la structure et le style de ces pages.
 ````
 
 ![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
