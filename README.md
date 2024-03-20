@@ -72,6 +72,57 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 
 Nous créons donc un document html à la racine de notre compte Github intitullé simple.html
 
+**Création d’un compte GitHub :**
+
+
+Pour commencer à utiliser GitHub, vous devez créer un compte personnel gratuit sur GitHub.com.
+
+
+Suivez les invites pour créer votre compte personnel Assurez-vous d’utiliser un mot de passe fort et unique.
+
+
+Vérifiez votre adresse e-mail lors de l’inscription. Sans adresse e-mail vérifiée, certaines tâches de base sur GitHub, comme la création d’un référentiel, ne seront pas possibles.
+
+
+**Création d’un dépôt pour votre site :**
+
+
+Vous pouvez créer un nouveau dépôt ou utiliser un dépôt existant pour votre site.
+
+
+Pour créer un nouveau dépôt :
+Cliquez sur le bouton “+” dans le coin supérieur droit de n’importe quelle page, puis sélectionnez “Nouveau référentiel”.
+
+
+Choisissez un nom pour votre référentiel (par exemple, <votre-nom-d'utilisateur>.github.io).
+
+
+Sélectionnez “Public” comme visibilité du dépôt.
+Cochez l’option “Initialize this repository with a README” (Initialiser ce dépôt à l’aide d’un fichier LISEZMOI).
+
+
+Cliquez sur “Créer le dépôt”.
+
+**Création de votre site :**
+
+
+Accédez au dépôt de votre site sur GitHub.
+
+
+Configurez une source de publication pour votre site. Vous pouvez choisir entre différentes options, comme une branche dédiée ou un workflow GitHub Actions personnalisé.
+
+
+Créez le fichier d’entrée pour votre site (par exemple, un fichier HTML, Markdown, etc.).
+
+
+Publiez votre site en poussant vos fichiers vers le dépôt sur GitHub.
+
+
+Votre site sera accessible via l’URL https://<votre-nom-d'utilisateur>.github.io.
+
+
+Remarque : Les sites GitHub Pages sont disponibles publiquement sur Internet, même si leur dépôt est privé. Assurez-vous de ne pas inclure de données sensibles dans votre dépôt avant la publication
+
 ## Explication du code
 
 Ce code est un exemple simple d’une page Web qui utilise la bibliothèque JavaScript A-Frame pour afficher une image à 360 degrés. Voici une explication détaillée de chaque partie :
