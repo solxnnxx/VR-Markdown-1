@@ -1,4 +1,4 @@
-# Création de visites virtuelles en VR
+# Création de visites virtuelles et contenus pédagogiques en VR libres et gratuits
 
 ## Objectif du document:
 Expliquer, de la manière la plus simple possible, comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre. Ce document doit inclure toutes les étapes de la réalisation, des prises de vue à l'édition du code en passant par l'hébergement. Le tout doit être écrit de la manière la plus simple et didactique possible, en procédant étape par étape.
