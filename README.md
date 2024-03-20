@@ -85,7 +85,7 @@ Suivez les invites pour créer votre compte personnel Assurez-vous d’utiliser 
 Vérifiez votre adresse e-mail lors de l’inscription. Sans adresse e-mail vérifiée, certaines tâches de base sur GitHub, comme la création d’un référentiel, ne seront pas possibles.
 
 
-**Création d’un dépôt pour votre site :**
+### Création d’un dépôt pour votre site :**
 
 
 Vous pouvez créer un nouveau dépôt ou utiliser un dépôt existant pour votre site.
@@ -105,7 +105,7 @@ Cochez l’option “Initialize this repository with a README” (Initialiser ce
 Cliquez sur “Créer le dépôt”.
 
 
-**Création de votre site :**
+### Création de votre site :
 
 
 Accédez au dépôt de votre site sur GitHub.
