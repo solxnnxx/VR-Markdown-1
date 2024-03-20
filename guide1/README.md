@@ -159,7 +159,7 @@ N’oublie pas de remplacer "chemin_vers_votre_image.jpg" par le chemin réel ve
 
 En résumé, ce code crée une scène de réalité virtuelle avec un ciel texturé par une image à 360 degrés. Vous pouvez interagir avec cette scène en utilisant la souris pour regarder autour de vous.
 
-[LIen du site](https://maximer37.github.io/VR-Markdown/)
+
 
 <!-- <a href="https://maximer37.github.io/VR-Markdown/"> -->
 
