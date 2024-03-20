@@ -174,10 +174,10 @@ Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre
 Je vais vous expliquer ce code ligne par ligne :
 
 
-var PageLoc = "./Pages" :C ette variable contient le chemin relatif vers le dossier où se trouvent vos pages HTML. Dans cet exemple, le dossier est nommé “Pages”.
+### var PageLoc = "./Pages" :
+C ette variable contient le chemin relatif vers le dossier où se trouvent vos pages HTML. Dans cet exemple, le dossier est nommé “Pages”.
 
-
-Variables pour A-Frame :
+### Variables pour A-Frame :
 
 
 var SceneData = $("a-scene") : Cette ligne sélectionne l’élément HTML avec la balise <a-scene> (qui est probablement la scène principale de 
