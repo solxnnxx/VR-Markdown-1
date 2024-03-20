@@ -1,15 +1,19 @@
 # Création de visites virtuelles et contenus pédagogiques en VR libres et gratuits
 
+^^^
 Version 1
-
 Auteurs:
 - Maxime Renauld, élève en TPRO SN RISC au lycée Louis de Cormontaigne
 - Solenne Mvutu Mbeya,  élève en TPRO SN RISC au lycée Louis de Cormontaigne
 - Yanis Maafa,  élève en TPRO SN SSIHT au lycée Louis de Cormontaigne
 - Matthieu Farcot, encadrement et validation, lycée Louis de Cormontaigne
+^^^
 
 ## Objectif du document:
-Expliquer, de la manière la plus simple possible, comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre. Ce document doit inclure toutes les étapes de la réalisation, des prises de vue à l'édition du code en passant par l'hébergement. Le tout doit être écrit de la manière la plus simple et didactique possible, en procédant étape par étape.
+Expliquer comment créer et mettre en ligne des visites virtuelles incluant des éléments pédagogiques diversifiés. La technologie utilisée doit être entièrement gratuite et sous licence libre - y inclut l'hebergement. La technologie doit permettre une navoigation compatible avec les spécificités de multiples appareils, y inclut la navigation en VR 
+
+Ce document doit inclure toutes les étapes de la réalisation, des prises de vue à l'édition du code en passant par l'hébergement. Le tout doit être écrit de la manière la plus simple et didactique possible, en procédant étape par étape.
+
 La cible du document est le grand public.
 
 ## Introduction
