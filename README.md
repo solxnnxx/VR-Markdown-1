@@ -70,12 +70,10 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
 ```
 *... et c'est tout!*
 
-Nous créons donc un document html à la racine de notre compte Github intitullé simple.html
+Nous créons donc un document html à la racine de notre compte Github intitullé index.html
 
 
-
-
-**Création d’un compte GitHub :**
+## Création d’un compte GitHub :
 
 
 Pour commencer à utiliser GitHub, vous devez créer un compte personnel gratuit sur GitHub.com.
