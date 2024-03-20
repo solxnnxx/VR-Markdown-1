@@ -203,19 +203,25 @@ Cette fonction attend pendant un certain nombre de millisecondes avant de contin
 ### Fonction UpdateNavigator() :
 
 Cette fonction supprime le “cache” de la caméra (probablement pour réinitialiser son état). Elle attend 100 millisecondes avant d’émettre un événement “end_trans”.
-Interaction pour la fonction UpdateNavigator :
+
+### Interaction pour la fonction UpdateNavigator :
+
 Lorsque le template est chargé (rendu), l’événement templaterendered est détecté sur l’élément MainScene, ce qui appelle la fonction UpdateNavigator.
-Fonction SwitchArea(Name) :
+
+### Fonction SwitchArea(Name) :
 Cette fonction change la scène (probablement le contenu affiché) en fonction du nom donné.
 Elle supprime tous les éléments de classe “field”.
 Elle émet un événement “start_trans” pour démarrer une transition.
 Enfin, elle met à jour le template de la scène principale avec le nom de la nouvelle page.
-Initialisation de la scène :
+
+### Initialisation de la scène :
 Le composant scene-init initialise la scène avec un nom donné (probablement pour afficher une page spécifique au démarrage).
 
 
-Composant scene-changer :
+### Composant scene-changer :
 Ce composant est attaché à un bouton (ou un autre élément) et permet de changer la scène lorsque l’utilisateur clique dessus.
+
+
 En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des transitions entre différentes pages (ou scènes). Les templates (ou modèles) sont probablement utilisés pour définir la structure et le style de ces pages.
 
 
