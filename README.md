@@ -39,7 +39,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </head>
   <body>
     <a-scene>
-      <a-sky src="./images/Photo 360 1.jpg"></a-sky>
+      <a-sky src="./images/3601.jpg"></a-sky>
     </a-scene>
   </body>
 </html>
