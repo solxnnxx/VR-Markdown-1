@@ -168,7 +168,9 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 
 
 # [Partie 2 - Navigation entre deux panorama 360](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
-Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique
+Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique dans l'arboraissance ./partie2/Pages-Index/default.html et dans le dossier ./partie2/Pages-Index/1.html
+
+
 
 <!-- 
 Je vais vous expliquer ce code ligne par ligne :
