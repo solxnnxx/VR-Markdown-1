@@ -168,7 +168,7 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 
 
 # [Partie 2 - Navigation entre deux panorama 360](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
-Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique dans l'arboraissance ./partie2/Pages-Index/default.html et dans le dossier ./partie2/Pages-Index/1.html. Dans c'est index on peut y trouver les du code pour inserer un object qui est notre fleche, qui permet de naviger d'un panorama a l'autre 
+Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique dans l'arboraissance ./partie2/Pages-Index/default.html et dans le dossier ./partie2/Pages-Index/1.html. Dans c'est index on peut y trouver les du code pour inserer un object qui est notre fleche, qui permet de naviger d'un panorama a l'autre.
 
 
 
@@ -230,11 +230,11 @@ En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des 
 ![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
 
 # [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
-pour gerer les animation d'un objet on va simplement rajouter une ligne de code a la suite de notre object 
-
+dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas 
+<!-- 
 ````
 <a-entity id="printer" scene-changer="" obj-model="obj: ./resources/fleche.obj" position="-28.26659 0.24929 -16.91649" class="raycastable" rotation="-90 0 0" 
 
 
 animation="property: position; dir: alternate; to: -28.2 -.4 -16.9; loop: true; dur: 1000"></a-entity>
-````
+```` -->
