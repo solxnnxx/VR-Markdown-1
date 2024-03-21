@@ -1,0 +1,12 @@
+<!-- Dome qui contien une image en 360° -->
+<a-sky src="./resources/image/panorama1.jpg"></a-sky>
+
+<!-- Modèle 3D, utilise le composant scene-changer pour changer la scène, il peremet aussi de gerer la position de l'objet, sa rotation et si on veut on peut l'animer -->                                                                            
+<a-entity id="printer" scene-changer="1" obj-model="obj: ./resources/fleche.obj" position="18.89986 -2 15.47396" class="raycastable" rotation="-90 0 0"animation="property: position; dir: alternate; to: 18.89986 -3 15.47396; loop: true; dur: 1000"></a-entity>
+
+<!--implémentaion d'une frise sur le panorama pour faciliter le positionnement du texte-->
+<a-ring id="navigation" position="0 -1.5 0" wireframe="true" opacity="0.25" color="red" radius-inner="1" radius-outer="2" rotation="-90 0 0"> </a-ring>
+
+<!-- <!-- Composant qui permet d'afficher le texte que l'on nom "lamo" et qui fonction avec l'index.js -->
+<a-entity lamo="angle: -40" text="value: HELLO; align: center; width: 20; color: #0011ff" position="2.07073 1.85799 -7.64446"></a-entity>
+<a-entity lamo="angle: 150; Y: 4" text="value: panneau d'indication; align: center; width: 20; color: #f50000" position="-8.90811 2.01835 4.38159" rotation="0 127.00000000000001 0"></a-entity>
