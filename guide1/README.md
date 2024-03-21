@@ -231,7 +231,7 @@ En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des 
 
 # [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
 Dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas pour mieux indiquer ou va aller l'utilisateur Pour realiser cela on va utiliser un composant du nom de animation on vas lui indiquer le type d'animation  mais aussi inserer des texte pour mieux guider l'utilisateur dans son parcours.Pour cela on rajoute un composant qui pour le texte et  
-# [Partie 4 - IMplémentation d'une vidéo](https://maximer37.github.io/VR-Markdown/guide1/partie4/index.html)
+# [Partie 4 - Implémentation d'une vidéo](https://maximer37.github.io/VR-Markdown/guide1/partie4/index.html)
 
 <!-- 
 ````
