@@ -168,7 +168,7 @@ En résumé, ce code crée une scène de réalité virtuelle avec un ciel textur
 
 
 # [Partie 2 - Navigation entre deux panorama 360](https://maximer37.github.io/VR-Markdown/guide1/partie2/index.html)
-Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée un page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique dans l'arboraissance ./partie2/Pages-Index/default.html et dans le dossier ./partie2/Pages-Index/1.html. Dans c'est index on peut y trouver les du code pour inserer un object qui est notre fleche, qui permet de naviger d'un panorama a l'autre.
+Dans un premier temps j'ai ajouter un template dans mon code qui va me permettre de gagner du temps sur la création de fonction, on va aussi crée une page javascript du nom de index.js qui va me permetre d'utiliser des variable et des fonction propre a javascript, on va crée deux page html que l'on va ranger dans un dossier spécifique dans l'arboraissance ./partie2/Pages-Index/default.html et dans le dossier ./partie2/Pages-Index/1.html. Dans c'est index on peut y trouver les du code pour inserer un object qui est notre fleche, qui permet de naviger d'un panorama a l'autre. 
 
 
 
@@ -230,7 +230,8 @@ En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des 
 ![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
 
 # [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
-dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas pour mieux indiquer ou va aller l'utilisateur mais aussi inserer des texte pour mieux guider l'utilisateur dans son parcours. 
+Dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas pour mieux indiquer ou va aller l'utilisateur Pour realiser cela on va utiliser un composant du nom de animation on vas lui indiquer le type d'animation  mais aussi inserer des texte pour mieux guider l'utilisateur dans son parcours.Pour cela on rajoute un composant qui pour le texte et  
+
 
 <!-- 
 ````
