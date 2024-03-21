@@ -1,3 +1,5 @@
+// Code emprintre de maniere indetermine a Error-Cezar: https://github.com/Error-Cezar
+
 // Variable qui contien la localisation des pages
 var PageLoc = "./Pages"
 
@@ -61,4 +63,25 @@ AFRAME.registerComponent('scene-changer', {
     onClick: async function() {
       SwitchArea(this.SceneName)
     }
+  })
+
+  AFRAME.registerComponent('lamo', {
+    schema: {type: 'int', default: 0},
+  
+    init: async function() {
+      this.update = this.update.bind(this)
+    },
+  
+    update: async function() {  
+      console.log("update")
+      // ------ \\
+      let container = $("#navigation")[0]
+      let angle = this.data / (180 / Math.PI), radius = container.getAttribute("radius-outer")
+      let x = ( radius ) * Math.cos(angle), z = ( radius ) * Math.sin(angle);
+    
+      this.el.setAttribute("position", {"x": x, "y": container.getAttribute("position").y, "z": z})
+    
+      this.el.object3D.lookAt(container.getAttribute("position"))
+      this.el.setAttribute("visible", "true")
+    },
   })
