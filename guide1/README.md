@@ -63,7 +63,7 @@ on va utiliser le code suivant pour importer l'image 360 sur le navigateur:
   </head>
   <body>
     <a-scene>
-      <a-sky src="./images/3601.jpg"></a-sky>
+      <a-sky src="./images/panorama1.jpg"></a-sky>
     </a-scene>
   </body>
 </html>
@@ -230,7 +230,8 @@ En résumé, ce code utilise A-Frame pour créer une expérience VR/AR avec des 
 ![*Deuxième panorama*](<partie2/resources/image/panorama2.jpg>)
 
 # [Partie 3 - Animer un objet et inserer un texte](https://maximer37.github.io/VR-Markdown/guide1/partie3/index.html)
-dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas 
+dans un deuxieme temps on va animer notre fleche qui vas aller du haut vers le bas pour mieux indiquer ou va aller l'utilisateur mais aussi inserer des texte pour mieux guider l'utilisateur dans son parcours. 
+
 <!-- 
 ````
 <a-entity id="printer" scene-changer="" obj-model="obj: ./resources/fleche.obj" position="-28.26659 0.24929 -16.91649" class="raycastable" rotation="-90 0 0" 
