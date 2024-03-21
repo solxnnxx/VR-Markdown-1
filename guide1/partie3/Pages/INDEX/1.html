@@ -1,5 +1,10 @@
 <!-- Dome qui contien une image en 360° -->
 <a-sky src="./resources/image/panorama2.jpg"></a-sky>
 
+<!--implémentaion d'une frise sur le panorama pour faciliter le positionnement du texte-->
+<a-ring id="navigation" position="0 -1.5 0" wireframe="true" opacity="0.25" color="red" radius-inner="1" radius-outer="2" rotation="-90 0 0"> </a-ring>
+
 <!-- Modèle 3D, utilise le composant scene-changer pour changer la scène -->
 <a-entity id="printer" scene-changer="" obj-model="obj: ./resources/fleche.obj" position="-28.26659 0.24929 -16.91649" class="raycastable" rotation="-90 0 0" animation="property: position; dir: alternate; to: -28.2 -.4 -16.9; loop: true; dur: 1000"></a-entity>
+
+<a-entity lamo="angle: 30" text="value: Re-bonjour; align: center; width: 20; color: #0011ff" position="2.07073 1.85799 -7.64446"></a-entity>
