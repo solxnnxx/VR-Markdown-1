@@ -66,7 +66,10 @@ AFRAME.registerComponent('scene-changer', {
   })
 
   AFRAME.registerComponent('lamo', {
-    schema: {type: 'int', default: 0},
+    schema: {
+      angle: {type: 'int', default: 0},
+      Y: {type: 'int', default: 1}
+    },
   
     init: async function() {
       this.update = this.update.bind(this)
@@ -76,11 +79,11 @@ AFRAME.registerComponent('scene-changer', {
       console.log("update")
       // ------ \\
       let container = $("#navigation")[0]
-      let angle = this.data / (180 / Math.PI), radius = container.getAttribute("radius-outer")
-      let x = ( radius ) * Math.cos(angle), z = ( radius ) * Math.sin(angle);
+      let angle = this.data["angle"] / (180 / Math.PI), radius = container.getAttribute("radius-outer") * 4
+      let x = ( radius ) * Math.cos(angle), z = ( radius ) * Math.sin(angle); 
     
-      this.el.setAttribute("position", {"x": x, "y": container.getAttribute("position").y, "z": z})
-    
+      this.el.setAttribute("position", {"x": x, "y": container.getAttribute("position").y + this.data["Y"], "z": z})
+      
       this.el.object3D.lookAt(container.getAttribute("position"))
       this.el.setAttribute("visible", "true")
     },
